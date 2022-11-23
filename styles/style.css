@@ -10,7 +10,7 @@ body {
 
 header {
     background-color:rgb(224, 252, 241);
-    grid-area: 1 / 1 / 1 / 2;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 header h1 {
@@ -51,7 +51,7 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 12vh 78vh 10vh;
     grid-template-columns: 100vw;
     min-height: 100vh;
 }

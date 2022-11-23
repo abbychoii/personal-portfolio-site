@@ -7,6 +7,10 @@ main {
     font-size: 14px;
 }
 
+ol {
+    list-style: circle;
+}
+
 .resource {
     color: #56957c;
     font-style: italic;

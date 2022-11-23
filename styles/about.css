@@ -1,15 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-items: flex-start;
+    font-size: 14px;
+}
+
 ul a {
     color: #7979bc;
     font-style: italic;
 }
 
-.content {
-    text-align: justify;
-    font-size: 14px;
-}
 
 #about {
-    background-color: rgb(247, 240, 240);
-    color:#7979bc;
+    color:#6cb391;
+    font-weight: bolder;
 }
 

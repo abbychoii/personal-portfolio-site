@@ -5,22 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abby's Portfolio</title>
-  <link href="/styles/portfolio.css" rel="stylesheet">
   <link href="/styles/style.css" rel="stylesheet">
+  <link href="/styles/portfolio.css" rel="stylesheet">
 </head>
 
 <body>
+<div class="container">
 <header>
   <h1>Abby Choi</h1>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a id="portfolio" href="portfolio.html">Portfolio</a>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a id="portfolio" href="portfolio.html">Portfolio</a></li>
+    </ul>
   </nav>
 </header>
 
 <main>
-<div class="container">
 <div class ="project" id="viewing-party">
   <h2 class="project-title"><a href="https://github.com/abbychoii/viewing-party">Viewing Party</a></h2>
   <p>
@@ -31,14 +33,14 @@
 <div class ="project" id="swap-meet">
   <h2 class="project-title"><a href="https://github.com/abbychoii/swap-meet">Swap-Meet</a></h2>
   <p>
-  What the project does 
+  Through the Swap Meet Project, I created various classes and instance methods that would be utilzed to allow different vendors swap items in their inventory according to condition or type. Additionally, I was able to learn more about code coverage through tests and the importance of writing thorough tests. 
   </p>
-  <p><span class="takeaways">Takeaways:</span> What I have learned</p>
+  <p><span class="takeaways">Takeaways:</span> I became more familiar with creating classes and instance methods, as well as the importance of DRYing up code with the usage of helper functions.</p>
 </div>
 <div class ="project" id="adagrams">
   <h2 class="project-title"><a href="https://github.com/abbychoii/adagrams-py">Adagrams</a></h2>
   <p>
-  What the project does
+  What the project does<br>
   Peer programming project!
   </p>
   <p><span class="takeaways">Takeaways:</span> What I have learned</p>
@@ -46,7 +48,7 @@
 <div class ="project" id="solar-system">
   <h2 class="project-title"><a href="https://github.com/abbychoii/solar-system-api">Solar-System</a></h2>
   <p>
-  What the project does
+  What the project does<br>
   Peer programming project!
   </p>
   <p><span class="takeaways">Takeaways:</span> What I have learned</p>
@@ -64,7 +66,6 @@
     <span class="takeaways">Takeaways:</span> 
     What I have learned</p>
 </div>
-</div>
 </main>
 
 <footer>
@@ -75,10 +76,7 @@
     <a href="https://www.linkedin.com/in/abigail-m-choi/"><img class=icon src="/assets/LI-In-Bug.png" alt="LinkedIn Icon"/></a>
     </nav>
 </footer>
-
-<script>NekoType="socks"</script>
-<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
-href="https://webneko.net">Neko</a></h1>
+</div>
 </body>
 
 </html>

@@ -1,11 +1,15 @@
-
-
-.content {
+main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
     text-align: justify;
-    font-size: 15px;
 }
 
+
 #index {
-    background-color: rgb(247, 240, 240);
-    color:#7979bc;
+    color:#6cb391;
+    font-weight: bolder;
 }

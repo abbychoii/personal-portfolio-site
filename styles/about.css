@@ -1,0 +1,15 @@
+ul a {
+    color: #7979bc;
+    font-style: italic;
+}
+
+.content {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#about {
+    background-color: rgb(247, 240, 240);
+    color:#7979bc;
+}
+

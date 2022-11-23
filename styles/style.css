@@ -8,25 +8,24 @@ body {
     margin: 0px;
 }
 
-
 header {
-    background-color:rgba(195, 255, 195, 0.36);
+    background-color:rgb(224, 252, 241);
     grid-area: 1 / 1 / 1 / 2;
-    text-align: center;
-    
 }
 
 header h1 {
     color: #166740;
+    text-align: center;
 }
 
 header a {
     color: gray;
     font-size: 120%;
+    text-decoration: none;
 }
 
 footer {
-    background-color: rgba(195, 255, 195, 0.36);
+    background-color: rgb(224, 252, 241);
     color: #166740;
     grid-area: 10 / 1 / 11 / 2;
     text-align: center;

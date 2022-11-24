@@ -5,6 +5,9 @@ main {
     margin: 20px;
 }
 
+body {
+    background-image: url("background1.png");
+}
 .project {
     width: 40vw;
     min-height:30vh;

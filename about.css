@@ -11,6 +11,9 @@ ol {
     list-style: circle;
 }
 
+body {
+    background-image: url("background2.png");
+}
 .resource {
     color: #56957c;
     font-style: italic;

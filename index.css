@@ -8,6 +8,9 @@ main {
     text-align: justify;
 }
 
+body {
+    background-image: url("background1.png");
+}
 
 #index {
     color:#6cb391;

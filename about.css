@@ -12,6 +12,7 @@ ol {
 }
 
 body {
+    margin: 0px;
     background-image: url("./background2.png");
 }
 .resource {

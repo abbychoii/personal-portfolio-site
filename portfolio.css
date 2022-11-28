@@ -6,6 +6,7 @@ main {
 }
 
 body {
+    margin: 0px;
     background-image: url("./background1.png");
 }
 .project {

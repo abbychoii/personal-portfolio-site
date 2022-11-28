@@ -3,6 +3,11 @@
     font-family: monospace;
 }
 
+body {
+    margin: 0px;
+    background-image: url("./background.png");
+}
+
 header {
     background-color:rgb(224, 252, 241);
     grid-area: 1 / 1 / 2 / 2;
